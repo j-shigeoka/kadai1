@@ -12,14 +12,9 @@ header {
 main {
   width: 100%;
   display: flex;
-  justify-content: center;
   margin: 0 auto;
   padding: 50px 0;
-}
-
-.blog-item {
-  width: 960px;
-  display: flex;
+  justify-content: center;
 }
 
 .stepbox {
@@ -60,7 +55,6 @@ main {
 }
 
 h3 {
-  background-color: ;
   padding-top: 15px;
   padding-bottom: 5px;
 }
@@ -79,14 +73,20 @@ footer {
 @media screen and (max-width: 768px) {
   main {
    width: 100%;
+   display: block;
   }
-}
 
   .stepbox {
     width: 90%;
     margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
   }
   
   .stepbox:last-child {
     margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
   }
+  
+}
