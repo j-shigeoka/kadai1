@@ -34,21 +34,21 @@ main {
 }
 
 .image1 {
-  background-image: url(flow01.png);
+  background-image: url(img/flow01.png);
   height: 150px;
   background-size: cover;
   background-position: bottom;
 }
 
 .image2 {
-  background-image: url(flow02.png);
+  background-image: url(img/flow02.png);
   height: 150px;
   background-size: cover;
   background-position: bottom;
 }
 
 .image3 {
-  background-image: url(flow03.png);
+  background-image: url(img/flow03.png);
   height: 150px;
   background-size: cover;
   background-position: bottom;
